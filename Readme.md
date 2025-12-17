@@ -5,9 +5,9 @@
 Git cannot track empty folders, it can only track files. To track the empty folder we need to create a file of any name, or .gitkeep
 
 - ```git init```
-- ```git status```
 - ```git add .```  "The '.' represents that all the files are added to the repository"
-- ``git commit -m "Your message"``
+- ```git status```
+- ```git commit -m "Your message"```
 - ```git branch -M main```
 - ```git remote add origin <{add the link of your git repository}>```
 - ```git push -u origin main```
