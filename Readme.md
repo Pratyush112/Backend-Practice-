@@ -33,9 +33,9 @@ Git cannot track empty folders, it can only track files. To track the empty fold
 3. **peerDependencies**: In package.json file, there is an object called as peerDependencies and it consists of all the packages that are exactly required in the project or to the person who is downloading and the version numbers should also be the same. That is the reason they were named as peerDependencies. The best example is 'react' which is common in every project to run similarly. 
     - **How to Add peerDependencies**: 
         - You need to manually add perrDependencies in your package.json file. npm does not automatically install these dependencies. 
-    - ```package.json: 
+    - `package.json: 
         "peerDependencies": {
                 "react": "^16.8.0"
-            }```
+            }`
 
 
