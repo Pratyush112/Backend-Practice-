@@ -8,8 +8,8 @@ Git cannot track empty folders, it can only track files. To track the empty fold
 - ```git status```
 - ```git add .```  "The '.' represents that all the files are added to the repository"
 - ``git commit -m "Your message"``
-- ```git remote add origin <{add the link of your git repository}>```
 - ```git branch -M main```
+- ```git remote add origin <{add the link of your git repository}>```
 - ```git push -u origin main```
 ##
 
