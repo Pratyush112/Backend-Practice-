@@ -7,7 +7,7 @@ dotenv.config({
 })
 
 const app = express();
-connectDatabse();
+connectDatabse()
 .then(
 app.listen(process.env.PORT || 8000, ()=> {
     console.log(`Server is runnning on port http://localhost:${process.env.PORT}`)
